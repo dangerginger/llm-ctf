@@ -3,3 +3,5 @@ responses.txt
 target_ids.txt
 .venv
 __pycache__
+attack_prompts.json
+successful_attacks.json
