@@ -3,11 +3,13 @@ import requests
 import json
 from ceasar import ceasar
 
+# Load the API Key from secret.txt
 API_KEY = ""
 with open("secret.txt", "r") as file:
   API_KEY = file.readline()
 print("API KEY: " + API_KEY)
 
+# Load the list of successful attacks
 attacks = []
 with open("successful_attacks.json", "r") as f:
   attacks = json.load(f)
