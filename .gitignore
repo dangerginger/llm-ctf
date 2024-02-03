@@ -1,3 +1,5 @@
 secret.txt
 responses.txt
 target_ids.txt
+.venv
+__pycache__
